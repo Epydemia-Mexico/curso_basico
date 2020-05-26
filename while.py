@@ -15,7 +15,6 @@ password = input('Ingresa tambien tu contraseña:\n')
 if user.get('email') == email and user.get('password') == password:
     print(f'Bienvenido {user.get("email")}\n')
     categoria = 0
-    import pudb; pudb.set_trace()
     while categoria not in ['', '1']:
         categoria = input('Escoge la categoria que te gustaria escuchar\n')
         if categoria not in ['', '1']:
